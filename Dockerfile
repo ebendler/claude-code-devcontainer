@@ -1,6 +1,6 @@
 # Claude Code Devcontainer
 # Based on Microsoft devcontainer image for better devcontainer integration
-FROM ghcr.io/astral-sh/uv:0.10@sha256:88234bc9e09c2b2f6d176a3daf411419eb0370d450a08129257410de9cfafd2a AS uv
+FROM ghcr.io/astral-sh/uv:0.11@sha256:c4f5de312ee66d46810635ffc5df34a1973ba753e7241ce3a08ef979ddd7bea5 AS uv
 FROM mcr.microsoft.com/devcontainers/base:ubuntu24.04@sha256:3dcb059253b2ebb44de3936620e1cff3dadcd2c1c982d579081ca8128c1eb319
 
 ARG TZ
